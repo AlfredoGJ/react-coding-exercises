@@ -1,0 +1,17 @@
+@import '../../../styles/vars';
+
+
+.sp-button{
+    
+    background: $primary-blue ;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    &:hover{
+        background-color: $secondary-blue;
+    }
+
+}

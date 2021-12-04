@@ -1,5 +1,9 @@
-import React from 'react';
+import React, { useContext } from "react";
+import { ThemeContext } from "../../providers/ThemeProvider";
+
 
 export default function App({ children }) {
-  return children;
+  
+  const themeContext =  useContext(ThemeContext)
+  return <div className={themeContext[0]}> {children};</div>;
 }
